@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+</head>
+<body>
+    <header id="header" class="header fixed-top" data-scrollto-offset="0">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+    
+          <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1>Fraternidad Sendero de Luz México AC<span>.</span></h1>
+          </a>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto" href="Biblioteca.html">Biblioteca</a></li>
+              <li><a class="nav-link scrollto" href="Servicio.html">Servicios</a></li>
+              <li><a class="nav-link scrollto" href="Eventos.html">Eventos</a></li>
+              <li><a href="SobreNosotros.html">Sobre nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle d-none"></i>
+          </nav>
+          <a class="btn-getstarted scrollto" href="login.html">Login</a>
+    
+        </div>
+    </header>
+    <section style="background-color: aqua;">
+        <div>
+            <h2>Formulario </h2>
+        <form action="bd.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido_paterno">Apellido Paterno:</label>
+        <input type="text" id="apellido_paterno" name="apellido_paterno" required><br><br>
+
+        <label for="apellido_materno">Apellido Materno:</label>
+        <input type="text" id="apellido_materno" name="apellido_materno" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+
+        <div class="footer-content">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-info">
+                  <h3>Fraternidad Sendero de Luz Mexico AC.</h3>
+                  <p>
+                    A108 Adam Street <br>
+                    NY 535022, USA<br><br>
+                    <strong>Phone:</strong> +1 5589 55488 55<br>
+                    <strong>Email:</strong> info@example.com<br>
+                  </p>
+                </div>
+              </div>
+    
+    
+            </div>
+            <div class="img-footer">
+              <img src="assets/img/LOGOFINAL2.png" width="400" alt="">
+            </div>
+          </div>
+        </div>
+    
+        
+    
+        <div class="footer-legal text-center">
+          <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+    
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Fraternidad Sendero de Luz Mexico AC</span></strong>. Derechos reservados 
+              </div>
+              <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+                Diseñado por Fredy | Tlacua & Victor | Cuache</a>
+              </div>
+            </div>
+    
+            <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+              <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> -->
+              <a href="https://www.facebook.com/profile.php?id=100064748533334" target="blank" title="#"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram" title="#"></i></a>
+              <a href="https://www.youtube.com/@senderodeluzmexicoa.c.4265" target="blank" title="#"><i class="bi bi-youtube"> </i></a>
+              <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> -->
+            </div>
+    
+          </div>
+        </div>
+    
+      </footer>
+</body>
+</html>
